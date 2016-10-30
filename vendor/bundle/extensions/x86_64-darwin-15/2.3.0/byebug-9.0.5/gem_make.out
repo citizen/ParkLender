@@ -1,0 +1,19 @@
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20161029-88985-130zqxb.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/jeremysuarez/ParkLender/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20161029-88985-1njy6hk/byebug
