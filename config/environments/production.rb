@@ -85,5 +85,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Heroku settings
-  config.serve_static_files = true
+  config.public_file_server.enabled = true
+  # config.serve_static_files = true
 end
